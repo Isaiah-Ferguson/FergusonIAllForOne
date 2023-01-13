@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Directory</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body id="grad">
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand sayHelloText" href="../index.html" style="color: white;">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </div>
+    </nav>
+    <br>
+    <h1 class="text-center header-text">Welcome to Mini Challenge 8</h1>
+    <br>
+    <div class="col-12 d-flex justify-content-center">
+        <button id="studentDirectoryBtn" type="button" class=" title-button outline title-text" style="height: 100px;">Student Directory</button>
+    </div>
+<br>
+<br>
+    <div class="container2">
+      <div class="row">
+      <div class="col-4">
+        <div class="row">
+          
+          
+            <div class="col-12 text-center"><input id="firstName" type="text" class="input input-box" placeholder="Enter 1st Name" style="height: 75px; width: 350px;"></div>
+            <div class="col-12 text-center" style="padding-top: 7px"><input id="lastName" type="text" class="input input-box" placeholder="Enter Last Name" style="height: 75px; width: 350px;"></div>
+            <div class="col-12 text-center" style="padding-top: 7px"><input id="slackName" type="text" class="input input-box" placeholder="Enter Slack Name" style="height: 75px; width: 350px;"></div>
+            <div class="col-12 text-center" style="padding-top: 7px"><input id="email" type="text" class="input input-box" placeholder="Enter Email" style="height: 75px; width: 350px;"></div>
+            <div class="col-12 text-center" style="padding-top: 7px">
+              <select class="input input-box" style="height: 75px; width: 350px;" id="nameDropDown" aria-placeholder="First Name DropDown">
+                <option value="Isaiah">Isaiah</option>
+                <option value ="Kent">Kent</option>
+                <option value = "Jessie" >Jessie</option>
+                <option value="Andrea">Andrea</option>
+                <option value ="Daniel">Daniel</option>
+                <option value = "Pedro" >Pedro</option>
+                <option value="Jeremy">Jeremy</option>
+                <option value ="Jacob">Jacob</option>
+                <option value = "Kenneth" >Kenneth</option>
+                <option value="Fernando">Fernando</option>
+                <option value ="Jovann">Jovann</option>
+                <option value = "Andrew" >Andrew</option>
+                <option value="N. Harrison">N. Harrison</option>
+                <option value ="Madeline">Madeline</option>
+                <option value = "Manuel" >Manuel</option>
+                <option value="Elizar">Elizar</option>
+                <option value ="Mark">Mark</option>
+                <option value = "Chris" >Chris</option>
+                <option value="Samuel">Samuel</option>
+                <option value ="John">John</option>
+                <option value = "Reed" >Reed</option>
+                <option value="Amar">Amar</option>
+                <option value ="Marcel">Marcel</option>
+                <option value = "Richard" >Richard</option>
+                <option value="Ulises">Ulises</option>
+                <option value ="Caroline">Caroline</option>
+                <option value = "Aisha" >Aisha</option>
+                <option value = "Shaun" >Shaun</option>
+                <option value = "Griffin" >Griffin</option>
+              </select>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center" style="padding-top: 50px;">
+              <button type="button" class=" title-button outline title-text" style="height: 100px;" id="randomBtn">Random Student</button>
+          </div>
+
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="col-8"><div class="col-12 box-two student-text" id="injectHere">
+      <p id="FirstName">First Name: John</p>
+      <p id="LastName">Last Name: Doe</p>
+      <p id="SlackName">Slack Name: John Doe</p>
+      <p id="Email">Email DJohn@Google.com</p>
+      <p class="text-center">Hobbies</p>
+      <p class="text-center" id="Hobbies">Doing John Doe Things and living my best John Doe Life.</p>
+    
+</div>
+</div>
+</div> 
+</div>
+    <script src="../script/StudentDirectory.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

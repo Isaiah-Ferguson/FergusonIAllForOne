@@ -1,0 +1,91 @@
+#grad {
+    background-image: linear-gradient(rgb(255, 170, 114), rgb(238, 238, 155), white);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box{
+    height: 500px;
+    width: 650px;
+    background-image: linear-gradient( rgb(217, 217, 217, 0.5), rgb(227, 137, 137),  rgb(229, 115, 115));
+  }
+
+  .box-two{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient( rgb(217, 217, 217, 0.5), rgb(227, 137, 137),  rgb(229, 115, 115));
+  }
+
+  .header-text{
+    font-size: 100px;
+  }
+
+  .sayHelloText{
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  .box-text{
+    font-size: 50px;
+  }
+
+  .student-text{
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+.input-box{
+    box-sizing: border-box;
+    width: 50%;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+  .title-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .title-button{
+    background-image: linear-gradient(rgb(100, 206, 8), rgb(114, 114, 12), rgb(254, 55, 55));
+  }
+
+  .outline{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(248, 99, 99);
+    border-width: 10px;
+  }
+
+  .Buttons{
+    border-radius: 25px;
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+  }
+
+  .input{
+    border-style: solid;
+    border-color: rgb(248, 99, 99);
+    border-width: 10px;
+  }
+
+  .container2{
+    width: 90%;
+  }
+
+  .container1{
+    width: 99%;
+  }
+
+  .hide{
+    display: none;
+  }
+  .reveal{
+    display: block;
+  }
